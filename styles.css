@@ -1,0 +1,41 @@
+/*-------------------------------------------    
+    Base     
+-------------------------------------------*/
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  /*Include padding and border in the element's total width and height*/
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* color of highlighted text */
+::-moz-selection {
+  background: #ffe500;
+}
+::selection {
+  background: #ffe500;
+}
+
+html {
+  background-color: #f5ffe6;
+}
