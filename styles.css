@@ -53,19 +53,27 @@ html {
     Global     
 -------------------------------------------*/
 
-.ricetext {
+.bg_rice {
+  background-color: var(--riceflower);
+}
+
+.bg_black {
+  background-color: var(--black);
+}
+
+.rice_text {
   color: var(--riceflower);
 }
 
-.graytext {
+.gray_text {
   color: var(--grey);
 }
 
-.highlighttext {
+.highlight_text {
   color: var(--chartreuse);
 }
 
-.normaltext {
+.normal_text {
   font-size: 1 rem;
   text-align: center;
 }
