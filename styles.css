@@ -111,6 +111,10 @@ nav {
 nav span {
   padding: 0 25px;
 }
+
+nav span:hover a {
+  color: var(--chartreuse);
+}
 /* ----------- Home ----------- */
 /* ----------- About ----------- */
 /* ----------- Portfolio ----------- */
