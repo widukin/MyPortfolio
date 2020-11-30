@@ -1,6 +1,15 @@
 /*-------------------------------------------    
     Base     
 -------------------------------------------*/
+:root {
+  --black: #080808;
+  --grey: #212121;
+  --sahara: #ad8e12;
+  --turbo: #ffe500;
+  --chartreuse: #99ff00;
+  --riceflower: #f5ffe6;
+}
+
 *,
 *:before,
 *:after {
@@ -30,12 +39,12 @@ section {
 
 /* color of highlighted text */
 ::-moz-selection {
-  background: #ffe500;
+  background: var(--turbo);
 }
 ::selection {
-  background: #ffe500;
+  background: var(--turbo);
 }
 
 html {
-  background-color: #f5ffe6;
+  background-color: var(--riceflower);
 }
