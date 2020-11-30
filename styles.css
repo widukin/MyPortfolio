@@ -83,6 +83,15 @@ a {
   text-align: center;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 /*-------------------------------------------    
     Sections     
 -------------------------------------------*/
@@ -96,6 +105,11 @@ nav {
   height: 50px;
   border-bottom: 3px solid var(--sahara);
   z-index: 99;
+  justify-content: flex-start;
+}
+
+nav span {
+  padding: 0 25px;
 }
 /* ----------- Home ----------- */
 /* ----------- About ----------- */
