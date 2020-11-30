@@ -46,12 +46,24 @@ section {
 }
 
 html {
-  background-color: var(--riceflower);
+  background-color: var(--grey);
 }
 
 /*-------------------------------------------    
     Global     
 -------------------------------------------*/
+
+.ricetext {
+  color: var(--riceflower);
+}
+
+.graytext {
+  color: var(--grey);
+}
+
+.highlighttext {
+  color: var(--chartreuse);
+}
 
 .normaltext {
   font-size: 1 rem;
