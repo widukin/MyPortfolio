@@ -46,6 +46,7 @@ section {
 }
 
 html {
+  font-family: Helvetica, Arial, sans-serif;
   background-color: var(--grey);
 }
 
